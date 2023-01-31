@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+  
+
+<remote name="Dooms-v" fetch="https://github.com/Dooms-v" />
+
+<remote name="Panchajanya Sarkar" fetch="https://gitlab.com/Panchajanya1999" />
+
+<remote name="ImSurajxD"
+
+          fetch="https://gitlab.com/ImSurajxD" />
+
+     <!--Trees-->
+
+  <project path="device/xiaomi/beryllium" name="beryllium-encrypt" remote="Dooms-v" revision="blaze" />
+
+  
+
+  <project path="device/xiaomi/sdm845-common" name="test-common" remote="Dooms-v" revision="blaze-common" />
+
+           
+
+  <project path="vendor/xiaomi" name="vendor_thirteen" remote="Dooms-v" revision="main" />
+
+  <project path="kernel/xiaomi/sdm845" name="SC-KERNEL" remote="Dooms-v" revision="thirteen" />
+
+  
+
+  <project path="hardware/xiaomi" name="pe-hardware" remote="Dooms-v" revision="thirteen" />
+
+  
+
+  <remove-project name="hardware_qcom-caf_sdm845_media" />
+
+  
+
+  <project path="hardware/qcom-caf/sdm845/media" name="qcom-sdm845-media" remote="Dooms-v" revision="arrow-13.0-caf-sdm845" />
+
+  
+
+  <!-- (Clang) -->
+
+  
+
+  <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="ImSurajxD" revision="master" />
+
+  <!-- Toolchain -->
+
+  <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="Dooms-v" revision="master" clone-depth="1" />
+
+  
+
+</manifest>
